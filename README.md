@@ -1,24 +1,7 @@
 # Irrigation-System-Rtos 🌱💧
 
 An automated irrigation system built using a Real-Time Operating System (RTOS) scheduler.  
-This project aims to manage water distribution efficiently based on time schedules or sensor data.
-
-## 📷 Project Preview
-
-Irrigation-System-Rtos/
-├── docs/                   # Documentation and schematics
-├── src/                    # Source code files
-│   ├── main.c              # Main application code
-│   ├── scheduler.c         # RTOS scheduler implementation
-│   ├── irrigation.c        # Irrigation control logic
-│   └── ...
-├── include/                # Header files
-│   ├── scheduler.h         # Scheduler definitions
-│   ├── irrigation.h        # Irrigation definitions
-│   └── ...
-├── README.md               # Project overview and instructions
-└── LICENSE                 # License information
-
+This project aims to manage water distribution efficiently based on time schedules or sensor data
 
 ## 📦 Features
 
@@ -34,7 +17,7 @@ Irrigation-System-Rtos/
 ## 🛠️ Hardware Requirements
 
 - **Microcontroller:** ATmega32 or any compatible MCU.
-- **Sensors:** Soil moisture sensor, temperature sensor (optional).
+- **Sensors:** Soil moisture sensor, temperature sensor (optional) "Sensor : DHT22".
 - **Actuators:** Solenoid valves or water pumps.
 - **Power Supply:** Appropriate power source for the microcontroller and actuators.
 
